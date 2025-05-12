@@ -70,6 +70,8 @@ Authorization: Bearer <jwt>
 ```
 
 Весь список запросов можно просмотреть в консоли Swagger'a по адресу 
+http://localhost:8080/swagger-ui/index.html#/
+
 🐳 Запуск через Docker
 ```bash
 docker-compose up --build
