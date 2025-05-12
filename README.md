@@ -44,19 +44,9 @@ Spring Boot микросервис для управления пользова�
 
 ## 🧪 Примеры API
 
-### Регистрация
-
-POST /auth/register
-```json
-{
-"username": "ivan",
-"password": "password123"
-}
-```
-
 ### Логин
 
-POST /auth/login
+POST /api/auth/signin
 ```json
 {
 "username": "ivan",
@@ -70,7 +60,7 @@ POST /auth/login
 ```
 Перевод средств
 
-POST /transfer
+POST /api/account/transfer
 Authorization: Bearer <jwt>
 ```json
 {
